@@ -1,0 +1,22 @@
+body {
+   margin: 0 auto;
+   background: #ddd;
+}
+.blackboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 12px solid  #bda27e;
+    height: 500px;
+    width: 1000px;
+    background:#fff;
+    box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #c2a782, 0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+    padding:15px;
+}
+
+.title {
+    height:50px;
+    text-align: center;
+    text-decoration: underline;
+}
